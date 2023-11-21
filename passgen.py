@@ -32,7 +32,7 @@ generate_button = tk.Button(window, text="GENERATE PASSWORD", bg="#577277", comm
 generate_button.pack(pady=20)
 
 result_var = StringVar()
-label_result = tk.Label(window, textvariable=result_var, font=("Arial", 16), wraplength=300, bg="#394a50", fg="white")
+label_result = tk.Label(window, textvariable=result_var, font=("Arial", 16), wraplength=300, bg="#394a50", fg="pink")
 label_result.pack(pady=(10, 20))
 
 window.update_idletasks()
